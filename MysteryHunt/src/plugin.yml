@@ -1,9 +1,0 @@
-name: MysteryHunt
-version: 1.0.0
-author: MrMarshall
-api-version: 1.13
-depend: [PlaceholderAPI, ProtectionStones, WorldGuard, WorldEdit]
-main: me.mrmarshall.mysteryhunt.MysteryHunt
-
-commands:
-  huntingtool:
