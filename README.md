@@ -17,6 +17,3 @@ This resource is a Spigot plugin which has been tested on the versions 1.13 - 1.
 
 ## Support
 If you have a problem or need help with the plugin feel free to join the [Discord Server](https://discord.gg/2xxQ8b2) of Marshall Developments and open up a ticket or ask the community!
-
-
-![](https://i.imgur.com/dtO1Ecg.png)
