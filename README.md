@@ -14,3 +14,6 @@ This resource is a Spigot plugin which has been tested on the versions 1.13 - 1.
 * WorldEdit, WorldGuard & ProtectionStones support
 * HuntingTool to find the nearest Treasure
 * Configurable World Settings (max-treasures, spawn-radius etc.)
+
+## Support
+If you have a problem or need help with the plugin feel free to join the [Discord Server](https://discord.gg/2xxQ8b2) of Marshall Developments and open up a ticket or ask the community!
