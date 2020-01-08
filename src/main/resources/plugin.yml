@@ -1,9 +1,9 @@
 name: MysteryHunt
-version: 1.0.0
+version: 1.0.1
 author: MrMarshall
 api-version: 1.13
 website: https://mrmarshall.dev/
-softdepend: [PlaceholderAPI, ProtectionStones, WorldGuard, WorldEdit]
+softdepend: [PlaceholderAPI, ProtectionStones, WorldGuard]
 main: dev.mrmarshall.mysteryhunt.MysteryHunt
 
 commands:

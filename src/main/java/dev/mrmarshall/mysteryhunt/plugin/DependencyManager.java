@@ -8,13 +8,11 @@ public class DependencyManager {
     private boolean placeholderApi;
     private boolean protectionStones;
     private boolean worldGuard;
-    private boolean worldEdit;
 
     public DependencyManager() {
         protectionStones = false;
         placeholderApi = false;
         worldGuard = false;
-        worldEdit = false;
     }
 
     public void loadDependencies() {
@@ -34,12 +32,6 @@ public class DependencyManager {
         if (checkDependency("com.sk89q.worldguard.WorldGuard")) {
             worldGuard = true;
             Bukkit.getConsoleSender().sendMessage(MysteryHunt.getInstance().messages.prefix + "§aSuccessfully hooked into WorldGuard!");
-        }
-
-        //> WorldEdit
-        if (checkDependency("com.sk89q.worldedit.bukkit.BukkitAdapter")) {
-            worldEdit = true;
-            Bukkit.getConsoleSender().sendMessage(MysteryHunt.getInstance().messages.prefix + "§aSuccessfully hooked into WorldEdit!");
         }
     }
 
@@ -63,9 +55,5 @@ public class DependencyManager {
 
     public boolean getWorldGuard() {
         return worldGuard;
-    }
-
-    public boolean getWorldEdit() {
-        return worldEdit;
     }
 }

@@ -10,7 +10,6 @@ public class BlockBreakListener implements Listener {
 
 	@EventHandler
 	public void onBreak(BlockBreakEvent e) {
-		
 		for(Location loc : MysteryHunt.getInstance().notDestroyable.keySet()) {
 			if(e.getBlock().getLocation().equals(loc) || e.getBlock().getLocation().equals(loc.clone().subtract(0, 1, 0))) {
 				e.setCancelled(true);

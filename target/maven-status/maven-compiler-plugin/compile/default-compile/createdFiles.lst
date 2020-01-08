@@ -9,6 +9,7 @@ dev\mrmarshall\mysteryhunt\util\LocationHandler.class
 dev\mrmarshall\mysteryhunt\util\FileManager.class
 dev\mrmarshall\mysteryhunt\objects\Parachute.class
 dev\mrmarshall\mysteryhunt\plugin\Messages.class
+dev\mrmarshall\mysteryhunt\util\UpdateChecker.class
 dev\mrmarshall\mysteryhunt\plugin\PluginHandler.class
 dev\mrmarshall\mysteryhunt\util\SchedulerManager$3.class
 dev\mrmarshall\mysteryhunt\objects\HuntingTool.class

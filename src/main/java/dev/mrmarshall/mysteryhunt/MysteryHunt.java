@@ -7,7 +7,10 @@ import dev.mrmarshall.mysteryhunt.plugin.PluginHandler;
 import dev.mrmarshall.mysteryhunt.util.FileManager;
 import dev.mrmarshall.mysteryhunt.util.LocationHandler;
 import dev.mrmarshall.mysteryhunt.util.SchedulerManager;
+import dev.mrmarshall.mysteryhunt.util.UpdateChecker;
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.HashMap;
@@ -36,6 +39,17 @@ public class MysteryHunt extends JavaPlugin {
         new PluginHandler();
         dependencyManager.loadDependencies();
         schedulerManager.loadTreasures();
+
+        new UpdateChecker(this, 74098).getVersion(version -> {
+            if (!this.getDescription().getVersion().equalsIgnoreCase(version)) {
+                for (Player all : Bukkit.getOnlinePlayers()) {
+                    if (all.isOp()) {
+                        all.sendMessage(messages.prefix + "§aA new version of MysteryHunt is available!");
+                        all.sendMessage(messages.prefix + "§7Please download it here:§b https://www.spigotmc.org/resources/mysteryhunt-1-13-1-15-let-your-players-go-on-a-treasure-hunt.74098/");
+                    }
+                }
+            }
+        });
     }
 	
 	@Override
@@ -47,5 +61,4 @@ public class MysteryHunt extends JavaPlugin {
 	public static MysteryHunt getInstance() {
 		return instance;
 	}
-	
 }
