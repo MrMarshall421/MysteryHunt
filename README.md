@@ -11,7 +11,7 @@ This resource is a Spigot plugin which has been tested on the versions 1.13 - 1.
 * Lag-Free & Up to date
 * Amazingly working Parachute for Treasures
 * PlaceholderAPI support for commands & broadcasts
-* WorldEdit, WorldGuard & ProtectionStones support
+* WorldGuard & ProtectionStones support
 * HuntingTool to find the nearest Treasure
 * Configurable World Settings (max-treasures, spawn-radius etc.)
 
