@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/afCUQs4.png)
 # MysteryHunt
-##### version 1.0.0
+##### version 1.0.1
 MysteryHunt adds a whole new experience to your minecraft-server! It's a very customizable and lag-free Treasure Hunting Plugin, which supports various Protection Plugins such as WorldGuard or ProtectionStones and adds a very fun and unique gameplay element to let your players hunt for amazing rewards!
 
 ## Information
